@@ -254,3 +254,47 @@
     font-size: 16px;
     color: #464646;
 }
+
+/*HOVER*/
+
+:hover.projeto__botao1 {
+    background-color: #D4E4FA;
+}
+
+:hover.projeto__botao2{
+    background-color: #5595E9;
+}
+
+:hover.contato__botao{
+    background-color: #5595E9;
+}
+
+:hover.botoes__botao {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+:hover.redes-sociais__botoes {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+:hover.formacao__imagem {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+:hover.experiencia__imagem {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+:hover.skills__skil {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+:hover.hobbies__hobby {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
