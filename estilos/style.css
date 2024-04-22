@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*CABECALHO*/
+
+.cabecalho {
+    background-color: #F5F5F5;
+}
+
+/*MENU*/
+
+.logo__nome {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.botoes__botao {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.contatos {
+    font-weight: 700;
+}
+
+/*APRESENTACAO*/
+
+.apresentacao__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #464646;
+}
+
+.apresentacao__paragrafo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #464646;
+}
+
+.redes-sociais__botoes {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.apresentacao__imagem {
+    /*background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+    background-size: 180% 180%; 
+    animation: gradient-animation 5s ease infinite;*/
+    background-color: #464646;
+}
+
+
+
+/*SOBRE MIM*/
+
+.sobre-mim {
+    background-color: #EAF2FD;
+}
+
+.sobre-mim__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.sobre-mim__paragrafo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+}
+
+/*SKILLS-HOBBIES*/
+
+.skills__hobbies {
+    background-color: #EDEDED;
+}
+
+/*SKILLS*/
+
+.skills__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.skills__skil {
+    background-color: #FFFFFF;
+}
+
+.skills__span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+/*HOBBIES*/
+
+.hobbies__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.hobbies__hobby {
+    background-color: #FFFFFF;
+}
+
+.hobbies__span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+/*FORMACAO-ACADEMICA*/
+
+.formacoes {
+    background-color: #EAF2FD;
+}
+
+.formacoes__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.formacao__imagem__container {
+    background-color: #FFFFFF;
+}
+
+.formacao__imagem {
+    background-color: #FFFFFF;
+}
+
+.formacao__nome {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+}
+
+.formacao__span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+/*EXPERIENCIA*/
+
+.experiencia {
+    background-color: #EDEDED;
+}
+
+.experiencia__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.projeto__nome {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+}
+
+.projeto__lugar {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.projeto__botao1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+}
+
+.projeto__botao2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+}
+
+/*CONTATO*/
+
+.contato {
+    background-color: #EAF2FD;
+}
+
+.contato__titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.contato__paragrafo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.contato__botao {
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+}
+
+
+
+/*RODAPE*/
+
+.rodape {
+    background-color: #FFFFFF;
+}
+
+.rodape__texto {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.rodape__span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}

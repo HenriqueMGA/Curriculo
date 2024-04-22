@@ -1,0 +1,319 @@
+
+/*CABECALHO*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    padding: 0 152px 32px 152px;
+}
+
+/*MENU*/
+
+.menu {
+    display: flex;
+    width: 1136px;
+    justify-content: space-between;
+    padding: 34.5px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.botoes {
+    display: flex;
+    gap: 32px;
+}
+
+/*APRESENTACAO*/
+
+.apresentacao {
+    display: flex;
+    gap: auto;
+    align-items: center;
+}
+
+.apresentacao__informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 32px;
+}
+
+.redes-sociais__botoes {
+    display: flex;
+    gap: 4px;
+}
+
+.apresentacao__imagem {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+
+
+/*CORPO*/
+
+/*.corpo {
+    padding: 0 152px;
+}*/
+
+/*SOBRE-MIM*/
+
+.sobre-mim {
+    padding: 64px 152px;
+    gap: 16px;
+}
+
+.sobre-mim__paragrafo {
+    width: 751px;
+}
+
+/*SKILLS-HOBBIES*/
+
+.skills__hobbies {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 152px 88px 152px;
+    gap: 88px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.skills__div {
+    display: flex;
+    gap: 16px;
+}
+
+.skills__skil {
+    display: flex;
+    flex-direction: column;
+    padding: 94px 16px 16px 16px;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.skills__imagem__html {
+    width: 24px;
+    height: 30px;
+}
+
+.skills__imagem__css {
+    width: 22px;
+    height: 35.5px;
+}
+
+.skills__imagem__javascript {
+    width: 28px;
+    height: 30px;
+}
+
+.skills__span {
+    width: 144px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.hobbies__div {
+    display: flex;
+    gap: 16px;
+}
+
+.hobbies__hobby {
+    display: flex;
+    flex-direction: column;
+    padding: 94px 16px 16px 16px;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.hobbies__imagem {
+    max-width: 32px;
+}
+
+.hobbies__span {
+    width: 144px;
+}
+
+/*FORMACAO*/
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px 152px;
+    gap: 32px;
+}
+
+.formacoes__formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formacoes__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.formacao__imagem__container {
+    width: 368px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.formacao__imagem {
+    max-width: 190px;
+    max-height: 130px;
+}
+
+/*EXPERIENCIA*/
+
+.experiencia {
+    padding: 32px 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.experiencia__projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.experiencia__div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.joanaSantos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.experiencia__imagem {
+    width: 750px;
+    border-radius: 10px;
+}
+
+.experiencia__projeto {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto__botoes {
+    display: flex;
+    gap: 16px;
+}
+
+.projeto__botao1 {
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.projeto__botao2 {
+    padding: 16px;
+    border-radius: 10px;
+}
+
+/*CONTATO*/
+
+.contato {
+    display: flex;
+    padding: 64px 152px;
+    gap: 16px;
+}
+
+.contato__imagem {
+    border-radius: 10px;
+}
+
+.contato__escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 656px;
+}
+
+.contato__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contato__preencher {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contato__nome {
+    width: 656px;
+    padding: 16px 0 20px 12px;
+    border-radius: 10px;
+}
+
+.contato__email {
+    width: 656px;
+    padding: 16px 0 20px 12px;
+    border-radius: 10px;
+}
+
+.contato__assunto {
+    width: 656px;
+    padding: 16px 0 20px 12px;
+    border-radius: 10px;
+}
+
+.contato__mensagem {
+    width: 656px;
+    padding: 16px 0 20px 12px;
+    border-radius: 10px;
+}
+
+.contato__botao {
+    width: 170px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+
+
+/*RODAPE*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 603px;
+    text-align: center;
+    align-items: center;
+}
