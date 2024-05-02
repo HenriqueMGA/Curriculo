@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+:root {
+    --cor-um: #464646;
+    --cor-dois: #EAF2FD;
+    --cor-tres: #EDEDED;
+    --cor-quatro: #FFFFFF;
+    --cor-cinco: #2A7AE4;
+    --cor-hover-um: #D4E4FA;
+    --cor-hover-dois: #5595E9;
+
+    --fonte-primaria: 'Raleway', sans-serif;
+}
+
 /*CABECALHO*/
 
 .cabecalho {
@@ -10,17 +22,17 @@
 /*MENU*/
 
 .logo__nome {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .botoes__botao {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .contatos {
@@ -30,31 +42,31 @@
 /*APRESENTACAO*/
 
 .apresentacao__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 52px;
-    color: #464646;
+    font-size: 3.25rem;
+    color: var(--cor-um);
 }
 
 .apresentacao__paragrafo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 22px;
-    color: #464646;
+    font-size: 1.375rem;
+    color: var(--cor-um);
 }
 
 .redes-sociais__botoes {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .apresentacao__imagem {
     /*background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
     background-size: 180% 180%; 
     animation: gradient-animation 5s ease infinite;*/
-    background-color: #464646;
+    background-color: var(--cor-um);
 }
 
 
@@ -62,175 +74,175 @@
 /*SOBRE MIM*/
 
 .sobre-mim {
-    background-color: #EAF2FD;
+    background-color: var(--cor-dois);
 }
 
 .sobre-mim__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2rem;
+    color: var(--cor-um);
 }
 
 .sobre-mim__paragrafo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 /*SKILLS-HOBBIES*/
 
 .skills__hobbies {
-    background-color: #EDEDED;
+    background-color: var(--cor-tres);
 }
 
 /*SKILLS*/
 
 .skills__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2rem;
+    color: var(--cor-um);
 }
 
 .skills__skil {
-    background-color: #FFFFFF;
+    background-color: var(--cor-quatro);
 }
 
 .skills__span {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 /*HOBBIES*/
 
 .hobbies__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2rem;
+    color: var(--cor-um);
 }
 
 .hobbies__hobby {
-    background-color: #FFFFFF;
+    background-color: var(--cor-quatro);
 }
 
 .hobbies__span {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 /*FORMACAO-ACADEMICA*/
 
 .formacoes {
-    background-color: #EAF2FD;
+    background-color: var(--cor-dois);
 }
 
 .formacoes__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2em;
+    color: var(--cor-um);
 }
 
 .formacao__imagem__container {
-    background-color: #FFFFFF;
+    background-color: var(--cor-quatro);
 }
 
 .formacao__imagem {
-    background-color: #FFFFFF;
+    background-color: var(--cor-quatro);
 }
 
 .formacao__nome {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 22px;
-    color: #464646;
+    font-size: 1.375rem;
+    color: var(--cor-um);
 }
 
 .formacao__span {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 /*EXPERIENCIA*/
 
 .experiencia {
-    background-color: #EDEDED;
+    background-color: var(--cor-tres);
 }
 
 .experiencia__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2rem;
+    color: var(--cor-um);
 }
 
 .projeto__nome {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 22px;
-    color: #464646;
+    font-size: 1.375rem;
+    color: var(--cor-um);
 }
 
 .projeto__lugar {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .projeto__botao1 {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 16px;
-    color: #2A7AE4;
-    border: solid 1px #2A7AE4;
+    font-size: 1rem;
+    color: var(--cor-cinco);
+    border: solid 0.0625rem var(--cor-cinco);
 }
 
 .projeto__botao2 {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #2A7AE4;
-    border: solid 1px #2A7AE4;
+    font-size: 1rem;
+    color: var(--cor-quatro);
+    background-color: var(--cor-cinco);
+    border: solid 0.0625rem var(--cor-cinco);
 }
 
 /*CONTATO*/
 
 .contato {
-    background-color: #EAF2FD;
+    background-color: var(--cor-dois);
 }
 
 .contato__titulo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 700;
-    font-size: 32px;
-    color: #464646;
+    font-size: 2rem;
+    color: var(--cor-um);
 }
 
 .contato__paragrafo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .contato__botao {
-    color: #FFFFFF;
-    font-family: "Raleway", sans-serif;
+    color: var(--cor-quatro);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 16px;
-    background-color: #2A7AE4;
-    border: solid 1px #2A7AE4;
+    font-size: 1rem;
+    background-color: var(--cor-cinco);
+    border: solid 0.0625rem var(--cor-cinco);
 }
 
 
@@ -238,35 +250,35 @@
 /*RODAPE*/
 
 .rodape {
-    background-color: #FFFFFF;
+    background-color: var(--cor-quatro);
 }
 
 .rodape__texto {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 .rodape__span {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 500;
-    font-size: 16px;
-    color: #464646;
+    font-size: 1rem;
+    color: var(--cor-um);
 }
 
 /*HOVER*/
 
 :hover.projeto__botao1 {
-    background-color: #D4E4FA;
+    background-color: var(--cor-hover-um);
 }
 
 :hover.projeto__botao2{
-    background-color: #5595E9;
+    background-color: var(--cor-hover-dois);
 }
 
 :hover.contato__botao{
-    background-color: #5595E9;
+    background-color: var(--cor-hover-dois);
 }
 
 :hover.botoes__botao {
@@ -297,4 +309,50 @@
 :hover.hobbies__hobby {
     transition: 0.5s;
     transform: scale(1.1)
+}
+
+:hover.apresentacao__imagem {
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
+@media (max-width: 1024px) {
+
+    .apresentacao__titulo {
+        font-size: 1.375rem;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: 1rem;
+    }
+
+    .redes-sociais__botoes {
+        font-size: 1rem;
+    }
+
+    .apresentacao__imagem {
+        max-width: 9.125rem;
+        max-height: 9.125rem;
+    }
+
+    .apresentacao {
+        width: 18.5rem;
+    }
+
+    .apresentacao__informacoes {
+        width: 18.5rem;
+    }
+
+    .sobre-mim__titulo {
+        font-size: 1.375rem;
+    }
+
+    .sobre-mim__paragrafo {
+        font-size: 0.875rem;
+        max-width: 37.5rem;
+    }
+}
+
+@media (max-width: 832px) {
+
 }
