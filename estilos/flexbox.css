@@ -11,7 +11,7 @@
 
 .menu {
     display: flex;
-    width: 71rem auto;
+    width: 71rem;
     justify-content: space-between;
     padding: 2.15625rem 0;
     align-items: center;
@@ -337,7 +337,7 @@
 }
 
 
-@media (max-width: 1124px) {
+@media (max-width: 1300px) {
    .cabecalho {
     padding: 2rem;
    }
@@ -352,6 +352,12 @@
 
     .menu {
         width: auto;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0.5rem;
     }
 
     .formacoes__div {
@@ -393,7 +399,11 @@
         align-items: flex-start;
         padding: 1rem;
         width: 18.5rem;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    
 
     .sobre-mim {
         padding: 1rem;
@@ -438,5 +448,24 @@
 }
 
 @media (max-width: 650px) {
+    .botoes__botao.contatos {
+        display: none;
+    }
 
+    .apresentacao {
+        align-items: center;
+    }
+
+    .apresentacao__titulo {
+        display: none;
+    }
+
+    .apresentacao__paragrafo {
+        display: none;
+    }
+
+    .redes-sociais {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
