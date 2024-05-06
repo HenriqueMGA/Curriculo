@@ -54,6 +54,10 @@
     flex-wrap: wrap;
 }
 
+.apresentacao__titulo.texto2 {
+    display: none;
+}
+
 .redes-sociais {
     display: flex;
     gap: 2rem;
@@ -229,7 +233,7 @@
     gap: 1rem;
 }
 
-.joanaSantos {
+.invertido {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -456,16 +460,41 @@
         align-items: center;
     }
 
-    .apresentacao__titulo {
+    .apresentacao__titulo.texto1 {
         display: none;
     }
 
-    .apresentacao__paragrafo {
+    .apresentacao__paragrafo.texto1 {
         display: none;
+    }
+
+    .apresentacao__titulo.texto2 {
+        display: flex;
     }
 
     .redes-sociais {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .skills__skil {
+        padding: 1rem;
+    }
+
+    .skills__span {
+        width: 5rem;
+    }
+
+    .hobbies__hobby {
+        padding: 1rem;
+    }
+
+    .hobbies__span {
+        width: 5rem;
+    }
+
+    .formacao__imagem__container {
+        height: 15rem;
+        width: 20rem;
     }
 }
