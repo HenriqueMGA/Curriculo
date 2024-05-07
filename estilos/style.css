@@ -178,6 +178,10 @@
     background-color: var(--cor-tres);
 }
 
+.experiencia__imagem {
+    border: solid 0.1rem var(--cor-um);
+}
+
 .experiencia__titulo {
     font-family: var(--fonte-primaria);
     font-weight: 700;

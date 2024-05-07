@@ -32,7 +32,7 @@
 
 .apresentacao {
     display: flex;
-    gap: auto;
+    gap: 1rem;
     padding: auto;
     align-items: center;
 }
