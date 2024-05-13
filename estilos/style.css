@@ -21,6 +21,11 @@
 
 /*MENU*/
 
+.menu {
+    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(1rem);
+}
+
 .logo__nome {
     font-family: var(--fonte-primaria);
     font-weight: 700;
@@ -33,6 +38,21 @@
     font-weight: 500;
     font-size: 1rem;
     color: var(--cor-um);
+}
+
+.botoes__botao:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cor-um);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .contatos {
@@ -156,6 +176,7 @@
 
 .formacao__imagem {
     background-color: var(--cor-quatro);
+    filter: grayscale(100%);
 }
 
 .formacao__nome {
@@ -180,6 +201,7 @@
 
 .experiencia__imagem {
     border: solid 0.1rem var(--cor-um);
+    filter: grayscale(100%);
 }
 
 .experiencia__titulo {
@@ -285,6 +307,12 @@
     background-color: var(--cor-hover-dois);
 }
 
+.botoes__botao:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}  
+
 :hover.botoes__botao {
     transition: 0.5s;
     transform: scale(1.1)
@@ -296,13 +324,15 @@
 }
 
 :hover.formacao__imagem {
-    transition: 0.5s;
-    transform: scale(1.1)
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+    filter: grayscale(0%);
 }
 
 :hover.experiencia__imagem {
-    transition: 0.5s;
-    transform: scale(1.1)
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+    filter: grayscale(0%);
 }
 
 :hover.skills__skil {
@@ -320,7 +350,7 @@
     transform: scale(1.1)
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
 
     .apresentacao__titulo {
         font-size: 1.375rem;
@@ -354,5 +384,13 @@
     .sobre-mim__paragrafo {
         font-size: 0.875rem;
         max-width: 37.5rem;
+    }
+    
+    .formacao__imagem {
+        filter: grayscale(0%);
+    }
+
+    .experiencia__imagem {
+        filter: grayscale(0%);
     }
 }

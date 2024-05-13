@@ -13,8 +13,11 @@
     display: flex;
     width: 71rem;
     justify-content: space-between;
-    padding: 2.15625rem 0;
+    padding: 2rem;
+    margin: 1rem 0 0 0;
     align-items: center;
+    position: fixed;
+    border-radius: 1rem;
 }
 
 .logo {
@@ -33,7 +36,7 @@
 .apresentacao {
     display: flex;
     gap: 1rem;
-    padding: auto;
+    padding: 7rem 0 0 0;
     align-items: center;
 }
 
@@ -137,6 +140,16 @@
 }
 
 .skills__imagem__javascript {
+    width: 1.75rem;
+    height: 1.875rem;
+}
+
+.skills__imagem__photoshop {
+    width: 1.75rem;
+    height: 1.875rem;
+}
+
+.skills__imagem__espanhol {
     width: 1.75rem;
     height: 1.875rem;
 }
