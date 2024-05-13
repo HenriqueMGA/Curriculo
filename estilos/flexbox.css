@@ -369,12 +369,14 @@
 
     .menu {
         width: auto;
+        position: relative;
     }
 
     .apresentacao {
         display: flex;
         flex-direction: column-reverse;
         gap: 0.5rem;
+        padding: 2rem 0 0 0;
     }
 
     .formacoes__div {
