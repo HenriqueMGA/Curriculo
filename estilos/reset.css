@@ -10,3 +10,11 @@ html {
     scroll-behavior: smooth;
     height: 100vh;
 }
+
+[data-mostrar="nao-mostrar"] {
+    display: none;
+}
+[data-mostrar="mostrar"] {
+    display: flex;
+    flex-direction: column;
+}

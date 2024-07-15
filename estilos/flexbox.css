@@ -16,7 +16,7 @@
     padding: 2rem;
     margin: 1rem 0 0 0;
     align-items: center;
-    position: fixed;
+    position: relative;
     border-radius: 1rem;
 }
 
@@ -36,7 +36,7 @@
 .apresentacao {
     display: flex;
     gap: 1rem;
-    padding: 7rem 0 0 0;
+    padding: 4rem 0 0 0;
     align-items: center;
 }
 
@@ -280,12 +280,33 @@
     border-radius: 0.625rem;
 }
 
+.botao__mostrar__mais {
+    padding: 2rem;
+    border-radius: 0.625rem;
+    width: fit-content;
+    align-self: center;
+}
+
+.botao__mostrar__menos {
+    padding: 2rem;
+    border-radius: 0.625rem;
+    width: fit-content;
+    align-self: center;
+}
+
+.projetos__escondidos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
 /*CONTATO*/
 
 .contato {
     display: flex;
     padding: 4rem 9.5rem;
-    gap: 1rem;
+    gap: 3rem;
+    align-items: center;
 }
 
 .contato__imagem {
@@ -339,6 +360,7 @@
     width: 10.625rem;
     padding: 1rem;
     border-radius: 0.625rem;
+    text-align: center;
 }
 
 

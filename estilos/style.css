@@ -242,6 +242,23 @@
     border: solid 0.0625rem var(--cor-cinco);
 }
 
+.botao__mostrar__mais {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-quatro);
+    background-color: var(--cor-cinco);
+    border: solid 0.0625rem var(--cor-cinco);
+}
+
+.botao__mostrar__menos {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-cinco);
+    border: solid 0.0625rem var(--cor-cinco);
+}
+
 /*CONTATO*/
 
 .contato {

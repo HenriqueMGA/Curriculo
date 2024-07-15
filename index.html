@@ -234,20 +234,36 @@
                         </div>
                     </div>
                     <div class="experiencia__div invertido">
-                        <img class="experiencia__imagem" src="/assets/Wizard Poster.png" alt="">
+                        <img class="experiencia__imagem" src="/assets/Pintura Casa.png" alt="">
                         <div class="experiencia__projeto">
-                            <p class="projeto__nome">Wizard Poster</p>
+                            <p class="projeto__nome">Pintura Casa</p>
                             <p class="projeto__lugar">Start 5.0</p>
                             <div class="projeto__botoes">
-                                <a class="projeto__botao1" href="https://drive.google.com/file/d/1ag__o72jMoTJD0fH_Vtm6Mg7YRESig7P/view?usp=drive_link" target="_blank">Arquivo Psd</a>
-                                <a class="projeto__botao2" href="https://drive.google.com/file/d/14errvJFwLq8bHOl8Jt0D6hn9Y8CCHdPK/view?usp=drive_link" target="_blank">Ver Imagem</a>
+                                <a class="projeto__botao1" href="https://drive.google.com/file/d/1FIrhncJmkobzVOWwaLqrUoUg-xg0AYsv/view?usp=drive_link" target="_blank">Arquivo Psd</a>
+                                <a class="projeto__botao2" href="https://drive.google.com/file/d/1gSnxGGMcHlz5_8JcKtFbt0WYmrrYeGYb/view?usp=drive_link" target="_blank">Ver Imagem</a>
                             </div>
                         </div>
                     </div>
+                    <!--
+                    <a href="#botao__mostrar__mais" class="botao__mostrar__mais" id="botao__mostrar__mais">Mostrar Mais</a>
+                    <div class="projetos__escondidos" data-mostrar="nao-mostrar">
+                        <div class="experiencia__div">
+                            <img class="experiencia__imagem" src="/assets/Wizard Poster.png" alt="">
+                            <div class="experiencia__projeto">
+                                <p class="projeto__nome">Wizard Poster</p>
+                                <p class="projeto__lugar">Start 5.0</p>
+                                <div class="projeto__botoes">
+                                    <a class="projeto__botao1" href="https://drive.google.com/file/d/1ag__o72jMoTJD0fH_Vtm6Mg7YRESig7P/view?usp=drive_link" target="_blank">Arquivo Psd</a>
+                                    <a class="projeto__botao2" href="https://drive.google.com/file/d/14errvJFwLq8bHOl8Jt0D6hn9Y8CCHdPK/view?usp=drive_link" target="_blank">Ver Imagem</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#botao__mostrar__menos" class="botao__mostrar__menos" id="botao__mostrar__menos">Mostrar Menos</a>
+                    </div>-->
                 </div>
             </div>
         </section>
-    <!--
+        <!--
         <section id="contato" class="contato">
             <img class="contato__imagem" src="/assets/telefone.png" alt="">
             <div class="contato__escrita">
@@ -258,20 +274,37 @@
                         <p class="contato__paragrafo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                     </div>
                 </div>
-                <div class="contato__preencher">
-                    <input class="contato__nome" type="text" placeholder="Nome">
-                    <input class="contato__email" type="email" placeholder="E-mail">
-                    <input class="contato__assunto" type="text" placeholder="Assunto">
-                    <textarea name="mensagem" class="contato__mensagem" id="" placeholder="Mensagem" rows="10"></textarea>
-                </div>
-                <a class="contato__botao" id="botao__mensagem" href="">Enviar Mensagem</a>
+                <form class="formulario">
+                    <div class="contato__preencher">
+                        <input class="contato__nome" type="text" placeholder="Nome" required minlength="3">
+                        <input class="contato__email" type="email" placeholder="E-mail" required minlength="8">
+                        <input class="contato__assunto" type="text" placeholder="Assunto" required minlength="1">
+                        <textarea name="mensagem" class="contato__mensagem" id="" placeholder="Mensagem" rows="10" required minlength="1"></textarea>
+                    </div>
+                    <input type="submit" class="contato__botao" id="botao__mensagem" href="" value="Enviar Mensagem">
+                </form>
             </div>
             
         </section>-->
+        <section id="contato" class="contato">
+            <img class="contato__imagem" src="/assets/telefone.png" alt="">
+            <div class="contato__escrita">
+                <div class="contato__descricao">
+                    <h2 class="contato__titulo">Contato</h2>
+                    <div>
+                        <p class="contato__paragrafo">Quer entrar em contato comigo?</p>
+                        <p class="contato__paragrafo">Clique no botão abaixo para me mandar um email e entrarei em contato o mais rápido possível.</p>
+                    </div>
+                </div>
+                <a class="contato__botao" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDfbNnGKFKTqLQtfFdLWFwbFrGHNdbxstwZXPzbjVCDvNBzQJsQFHJZWSFKxQtkJVgzhQb" target="_blank" title="Ir para o email">Enviar e-mail!</a>
+            </div>
+            
+        </section>
     </main>
     <footer class="rodape">
         <p class="rodape__texto">Desenvolvido por Hernique Melo</p>
         <span class="rodape__span">2024</span>
     </footer>
+    <script src="/js/app.js"></script>
 </body>
 </html>
