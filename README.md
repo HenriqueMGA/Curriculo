@@ -5,4 +5,4 @@ Contém certificados, projetos, cursos e escolas que estudei além de tds as red
 Desenvolvido durante o curso OracleONE da Alura com a Oracle.
 
 ## Disponibilizo aqui o link do site hospedado na plataforma Versel
-![PortfólioHenriqueMeloVersel](https://curriculo-henrique-dev.vercel.app/)
+[PortfólioHenriqueMeloVersel](https://curriculo-henrique-dev.vercel.app/)
