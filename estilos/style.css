@@ -38,6 +38,7 @@
     font-weight: 500;
     font-size: 1rem;
     color: var(--cor-um);
+    transition: 0.5s;
 }
 
 .botoes__botao:before {
@@ -80,6 +81,7 @@
     font-weight: 500;
     font-size: 1rem;
     color: var(--cor-um);
+    transition: 0.5s;
 }
 
 .apresentacao__imagem {
@@ -87,6 +89,7 @@
     background-size: 180% 180%; 
     animation: gradient-animation 5s ease infinite;*/
     background-color: var(--cor-um);
+    transition: 0.5s;
 }
 
 
@@ -128,6 +131,7 @@
 
 .skills__skil {
     background-color: var(--cor-quatro);
+    transition: 0.5s;
 }
 
 .skills__span {
@@ -148,6 +152,7 @@
 
 .hobbies__hobby {
     background-color: var(--cor-quatro);
+    transition: 0.5s;
 }
 
 .hobbies__span {
@@ -177,6 +182,7 @@
 .formacao__imagem {
     background-color: var(--cor-quatro);
     filter: grayscale(100%);
+    transition: all 0.5s ease-out;
 }
 
 .formacao__nome {
@@ -202,6 +208,7 @@
 .experiencia__imagem {
     border: solid 0.1rem var(--cor-um);
     filter: grayscale(100%);
+    transition: all 0.5s ease-out;
 }
 
 .experiencia__titulo {
@@ -242,22 +249,7 @@
     border: solid 0.0625rem var(--cor-cinco);
 }
 
-.botao__mostrar__mais {
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--cor-quatro);
-    background-color: var(--cor-cinco);
-    border: solid 0.0625rem var(--cor-cinco);
-}
 
-.botao__mostrar__menos {
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--cor-cinco);
-    border: solid 0.0625rem var(--cor-cinco);
-}
 
 /*CONTATO*/
 
