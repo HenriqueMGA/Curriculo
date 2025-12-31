@@ -1,0 +1,167 @@
+{
+  "skills": [
+    {
+      "nome": "HTML5",
+      "img": "/assets/Icones/Skills/html5.png",
+      "class": "html"
+    },
+    {
+      "nome": "CSS",
+      "img": "/assets/Icones/Skills/css.png",
+      "class": "css"
+    },
+    {
+      "nome": "Javascript",
+      "img": "/assets/Icones/Skills/javascript.png",
+      "class": "javascript"
+    },
+    {
+      "nome": "Typescript",
+      "img": "/assets/Icones/Skills/typescript.png",
+      "class": "typescript"
+    },
+    {
+      "nome": "React",
+      "img": "/assets/Icones/Skills/react.png",
+      "class": "react"
+    },
+    {
+      "nome": "Python",
+      "img": "/assets/Icones/Skills/python.png",
+      "class": "python"
+    },
+    {
+      "nome": "MySQL",
+      "img": "/assets/Icones/Skills/mysql.png",
+      "class": "mysql"
+    },
+    {
+      "nome": "Photoshop",
+      "img": "/assets/Icones/Skills/photoshop.png",
+      "class": "photoshop"
+    },
+    {
+      "nome": "After Effects",
+      "img": "/assets/Icones/Skills/after-effects.png",
+      "class": "aftereffects"
+    },
+    {
+      "nome": "Premiere",
+      "img": "/assets/Icones/Skills/premiere-pro.png",
+      "class": "premiere"
+    },
+    {
+      "nome": "Blender",
+      "img": "/assets/Icones/Skills/blender-icon.png",
+      "class": "blender"
+    },
+    {
+      "nome": "Espanhol",
+      "img": "/assets/Icones/Skills/espanhol.png",
+      "class": "espanhol"
+    }
+  ],
+  "hobbies": [
+    {
+      "nome": "Tocar",
+      "img": "/assets/Icones/Hobbies/guitar.png"
+    },
+    {
+      "nome": "Ouvir Música",
+      "img": "/assets/Icones/Hobbies/headphones.png"
+    },
+    {
+      "nome": "Assistir Animes",
+      "img": "/assets/Icones/Hobbies/tv.png"
+    },
+    {
+      "nome": "Programar",
+      "img": "/assets/Icones/Hobbies/programacao.png"
+    },
+    {
+      "nome": "Jogar Videogame",
+      "img": "/assets/Icones/Hobbies/controle_video_game.png"
+    }
+  ],
+  "formacoes": [
+    {
+      "nome": "Engenharia da Computação",
+      "descricao": "2024/2029 - Univesp",
+      "img": "/assets/Formacao/univesp.jpeg",
+      "link": "https://univesp.br/"
+    },
+    {
+      "nome": "Ensino médio",
+      "descricao": "2021/2023 - E.E. Nossa Senhora da Penha",
+      "img": "/assets/Formacao/nsp.jpeg",
+      "link": "https://nsp002513.wixsite.com/nspenha"
+    },
+    {
+      "nome": "Curso de espanhol",
+      "descricao": "2021/2023 - Centro de Estudo de Línguas (CEL)",
+      "img": "/assets/Formacao/cel.jpeg",
+      "link": "https://celpenha.blogspot.com/"
+    },
+    {
+      "nome": "Plataforma PROA",
+      "descricao": "2023 - Instituto Proa",
+      "img": "/assets/Formacao/proa.png",
+      "link": "https://www.proa.org.br/"
+    },
+    {
+      "nome": "OracleONE",
+      "descricao": "2024 - Alura",
+      "img": "/assets/Formacao/alura.png",
+      "link": "https://www.oracle.com/br/education/oracle-next-education/"
+    },
+    {
+      "nome": "Start 5.0",
+      "descricao": "2024/2026 - Saga",
+      "img": "/assets/Formacao/saga.png",
+      "link": "https://www.saga.com.br/cursos/design-grafico"
+    },
+    {
+      "nome": "Cursos de Programação",
+      "descricao": "DIO",
+      "img": "/assets/Formacao/logo_dio.png",
+      "link": "https://www.saga.com.br/cursos/design-grafico"
+    }
+  ],
+  "trabalhos": [
+    {
+      "nome": "Auxiliar de Professor",
+      "descricao": "Escola Saga",
+      "img": "/assets/Experiencias/saga.png",
+      "link": "https://www.saga.com.br/cursos/design-grafico"
+    },
+    {
+      "nome": "Vendedor",
+      "descricao": "|11/2025 - Atualmente| <br> BIO Group Serviços Operacionais LTDA <br> (Loja Intercontinental)",
+      "img": "/assets/Experiencias/Inter.png",
+      "link": ""
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "Jogo do Número Secreto",
+      "descricao": "OracleONE",
+      "img": "/assets/Projetos/Numero_Secreto.png",
+      "repositorio": "https://github.com/HenriqueMGA/Jogo-do-numero-secreto.git",
+      "demo": "https://jogo-do-numero-secreto-hazel-xi.vercel.app/"
+    },
+    {
+      "nome": "Projeto Fokus",
+      "descricao": "OracleONE",
+      "img": "/assets/Projetos/Projeto_Fokus.png",
+      "repositorio": "https://github.com/HenriqueMGA/Fokus.git",
+      "demo": "https://fokus-zeta-eight.vercel.app/"
+    },
+    {
+      "nome": "Optimus Tech",
+      "descricao": "7 Days of Code",
+      "img": "/assets/Projetos/Optimus_Tech.png",
+      "repositorio": "https://github.com/HenriqueMGA/Optimus-Tech.git",
+      "demo": "https://optimus-tech-lac.vercel.app/"
+    }
+  ]
+}
