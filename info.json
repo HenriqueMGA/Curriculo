@@ -143,6 +143,27 @@
   ],
   "projetos": [
     {
+      "nome": "Byte Busters",
+      "descricao": "Projeto Próprio",
+      "img": "/assets/Projetos/ByteBusters.png",
+      "repositorio": "https://github.com/HenriqueMGA/Bytebuster.git",
+      "demo": "https://bytebuster-beta.vercel.app/"
+    },
+    {
+      "nome": "Página Antiga do Youtube",
+      "descricao": "DIO",
+      "img": "/assets/Projetos/Desafio_CSS.png",
+      "repositorio": "https://github.com/HenriqueMGA/Desafio-de-Flexbox.git",
+      "demo": "https://desafio-de-flexbox.vercel.app/"
+    },
+    {
+      "nome": "Página de Pesquisa de One Piece",
+      "descricao": "Curso Gratuito",
+      "img": "/assets/Projetos/Mugiwaras_de_OnePiece.png",
+      "repositorio": "https://github.com/HenriqueMGA/Imersao-Alura-Gemini.git",
+      "demo": "https://imersao-alura-gemini-beta.vercel.app/"
+    },
+    {
       "nome": "Jogo do Número Secreto",
       "descricao": "OracleONE",
       "img": "/assets/Projetos/Numero_Secreto.png",
@@ -157,11 +178,11 @@
       "demo": "https://fokus-zeta-eight.vercel.app/"
     },
     {
-      "nome": "Optimus Tech",
-      "descricao": "7 Days of Code",
-      "img": "/assets/Projetos/Optimus_Tech.png",
-      "repositorio": "https://github.com/HenriqueMGA/Optimus-Tech.git",
-      "demo": "https://optimus-tech-lac.vercel.app/"
+      "nome": "AluraFlix",
+      "descricao": "OracleONE",
+      "img": "/assets/Projetos/AluraFlix.png",
+      "repositorio": "https://github.com/HenriqueMGA/AluraFlix.git",
+      "demo": "https://alura-flix-rust.vercel.app/"
     }
   ]
 }
