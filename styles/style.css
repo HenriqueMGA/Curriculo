@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor-um: #464646;
+    --cor-dois: #EAF2FD;
+    --cor-tres: #EDEDED;
+    --cor-quatro: #FFFFFF;
+    --cor-cinco: #2A7AE4;
+    --cor-hover-um: #D4E4FA;
+    --cor-hover-dois: #5595E9;
+
+    --fonte-primaria: 'Raleway', sans-serif;
+}
+
+/*CABECALHO*/
+
+.cabecalho {
+    background-color: #F5F5F5;
+}
+
+/*MENU*/
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(1rem);
+    
+    .logo__nome {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+    
+    .botoes__botao {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+        transition: 0.5s;
+    }
+    
+    .botoes__botao:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--cor-um);
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .contatos {
+        font-weight: 700;
+    }
+}
+
+/*APRESENTACAO*/
+
+.apresentacao {
+    .apresentacao__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 3.25rem;
+        color: var(--cor-um);
+    }
+    
+    .apresentacao__paragrafo {
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: var(--cor-um);
+    }
+    
+    .redes-sociais__botoes {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+        transition: 0.5s;
+    }
+    
+    .apresentacao__imagem {
+        /*background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+        background-size: 180% 180%; 
+        animation: gradient-animation 5s ease infinite;*/
+        background-color: var(--cor-um);
+        transition: 0.5s;
+    }
+}
+
+/*SOBRE MIM*/
+
+.sobre-mim {
+    background-color: var(--cor-dois);
+    
+    .sobre-mim__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--cor-um);
+    }
+    
+    .sobre-mim__paragrafo {
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+}
+
+/*SKILLS-HOBBIES*/
+
+.skills__hobbies {
+    background-color: var(--cor-tres);
+}
+
+/*SKILLS*/
+
+.skills {
+    .skills__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--cor-um);
+    }
+    
+    .skills__skil {
+        background-color: var(--cor-quatro);
+        transition: 0.5s;
+        
+        .skills__span {
+            font-family: var(--fonte-primaria);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--cor-um);
+        }
+    }
+}
+
+/*HOBBIES*/
+
+.hobbies {
+    .hobbies__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--cor-um);
+    }
+    
+    .hobbies__hobby {
+        background-color: var(--cor-quatro);
+        transition: 0.5s;
+        
+        .hobbies__span {
+            font-family: var(--fonte-primaria);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--cor-um);
+        }
+    }
+}
+
+/*FORMACAO-ACADEMICA*/
+
+.formacoes {
+    background-color: var(--cor-dois);
+    
+    .formacoes__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2em;
+        color: var(--cor-um);
+    }
+    
+    .formacao__imagem__container {
+        background-color: var(--cor-quatro);
+        
+    }
+
+    .formacao__imagem {
+        background-color: var(--cor-quatro);
+        filter: grayscale(100%);
+        transition: all 0.5s ease-out;
+    }
+    
+    .formacao__nome {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: var(--cor-um);
+    }
+    
+    .formacao__span {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+}
+
+
+/*EMPREGOS*/
+
+.empregos {
+    background-color: var(--cor-dois);
+    
+    .empregos_titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2em;
+        color: var(--cor-um);
+    }
+    
+    .emprego__imagem__container {
+        background-color: var(--cor-quatro);
+        
+    }
+
+    .emprego__imagem {
+        background-color: var(--cor-quatro);
+        filter: grayscale(100%);
+        transition: all 0.5s ease-out;
+    }
+    
+    .emprego__nome {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: var(--cor-um);
+    }
+    
+    .emprego__span {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+}
+
+
+/*EXPERIENCIA*/
+
+.experiencia {
+    background-color: var(--cor-tres);
+    
+    .experiencia__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--cor-um);
+    }
+    
+    .experiencia__imagem {
+        border: solid 0.1rem var(--cor-um);
+        filter: grayscale(100%);
+        transition: all 0.5s ease-out;
+    }
+    
+    .projeto__nome {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: var(--cor-um);
+    }
+    
+    .projeto__lugar {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+    
+    .projeto__botao1 {
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--cor-cinco);
+        border: solid 0.0625rem var(--cor-cinco);
+    }
+    
+    .projeto__botao2 {
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--cor-quatro);
+        background-color: var(--cor-cinco);
+        border: solid 0.0625rem var(--cor-cinco);
+    }
+}
+
+/*CONTATO*/
+
+.contato {
+    background-color: var(--cor-dois);
+    
+    .contato__titulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--cor-um);
+    }
+    
+    .contato__paragrafo {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+    
+    .contato__botao {
+        color: var(--cor-quatro);
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1rem;
+        background-color: var(--cor-cinco);
+        border: solid 0.0625rem var(--cor-cinco);
+    }
+}
+
+/*RODAPE*/
+
+.rodape {
+    background-color: var(--cor-quatro);
+    
+    .rodape__texto {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+    
+    .rodape__span {
+        font-family: var(--fonte-primaria);
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--cor-um);
+    }
+}
+
+/*HOVER*/
+
+.apresentacao {
+    :hover.apresentacao__imagem {
+        transition: 0.5s;
+        transform: scale(1.1)
+    }
+    
+    :hover.redes-sociais__botoes {
+        transition: 0.5s;
+        transform: scale(1.1)
+    }
+}
+
+.menu {
+    .botoes__botao:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }  
+    
+    :hover.botoes__botao {
+        transition: 0.5s;
+        transform: scale(1.1)
+    }
+}
+
+.skills__hobbies {
+    :hover.skills__skil {
+        transition: 0.5s;
+        transform: scale(1.1)
+    }
+    
+    :hover.hobbies__hobby {
+        transition: 0.5s;
+        transform: scale(1.1)
+    }
+}
+
+:hover.formacao__imagem {
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+:hover.emprego__imagem {
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.experiencia {
+    :hover.projeto__botao1 {
+        background-color: var(--cor-hover-um);
+    }
+    
+    :hover.projeto__botao2{
+        background-color: var(--cor-hover-dois);
+    }
+    
+    :hover.experiencia__imagem {
+        transition: all 0.5s ease-out;
+        transform: scale(1.1);
+        filter: grayscale(0%);
+    }
+}
+
+.contato {
+    :hover.contato__botao{
+        background-color: var(--cor-hover-dois);
+    }
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .apresentacao {
+        width: 18.5rem;
+        
+        .apresentacao__informacoes {
+            width: 18.5rem;
+            
+            .apresentacao__titulo {
+                font-size: 1.375rem;
+            }
+            
+            .apresentacao__paragrafo {
+                font-size: 1rem;
+            }
+            
+            .redes-sociais__botoes {
+                font-size: 1rem;
+            }
+        }
+        
+        .apresentacao__imagem {
+            max-width: 9.125rem;
+            max-height: 9.125rem;
+        }
+    }
+
+    .sobre-mim {
+        .sobre-mim__titulo {
+            font-size: 1.375rem;
+        }
+    
+        .sobre-mim__paragrafo {
+            font-size: 0.875rem;
+            max-width: 37.5rem;
+        }
+    }
+
+    .formacao {
+        .formacao__imagem {
+            filter: grayscale(0%);
+        }
+    }
+
+    .experiencia {
+        .experiencia__imagem {
+            filter: grayscale(0%);
+        }
+    }
+}

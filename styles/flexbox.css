@@ -1,0 +1,613 @@
+/*CABECALHO*/
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  padding: 0 9.5rem 2rem 9.5rem;
+}
+
+/*MENU*/
+
+.menu {
+  display: flex;
+  width: 71rem;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 1rem 0 0 0;
+  align-items: center;
+  position: relative;
+  border-radius: 1rem;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .botoes {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+/*APRESENTACAO*/
+
+.apresentacao {
+  display: flex;
+  gap: 1rem;
+  padding: 4rem 0 0 0;
+  align-items: center;
+
+  .apresentacao__informacoes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .apresentacao__titulo {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .apresentacao__paragrafo {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .apresentacao__titulo.texto2 {
+      display: none;
+    }
+
+    .redes-sociais {
+      display: flex;
+      gap: 2rem;
+
+      .redes-sociais__botoes {
+        display: flex;
+        gap: 0.25rem;
+      }
+    }
+  }
+
+  .apresentacao__imagem {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%;
+  }
+}
+
+/*CORPO*/
+
+/*.corpo {
+    padding: 0 152px;
+}*/
+
+/*SOBRE-MIM*/
+
+.sobre-mim {
+  padding: 4rem 9.5rem;
+  gap: 1rem;
+
+  .sobre-mim__paragrafo {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/*SKILLS-HOBBIES*/
+
+.skills__hobbies {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 9.5rem 5.5rem 9.5rem;
+  gap: 5.5rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  .skills__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .skills__skil {
+      display: flex;
+      flex-direction: column;
+      padding: 5.875rem 1rem 1rem 1rem;
+      gap: 0.5rem;
+      border-radius: 0.625rem;
+
+      .skills__imagem__html {
+        width: 1.5rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__css {
+        width: 1.375rem;
+        height: 2.21875rem;
+      }
+
+      .skills__imagem__javascript {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__typescript {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__react {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__python {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__mysql {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__photoshop {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__aftereffects {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__premiere {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__blender {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__imagem__espanhol {
+        width: 1.75rem;
+        height: 1.875rem;
+      }
+
+      .skills__span {
+        width: 9rem;
+      }
+    }
+  }
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  .hobbies__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .hobbies__hobby {
+      display: flex;
+      flex-direction: column;
+      padding: 5.875rem 1rem 1rem 1rem;
+      gap: 0.5rem;
+      border-radius: 0.625rem;
+
+      .hobbies__imagem {
+        max-width: 2rem;
+      }
+
+      .hobbies__span {
+        width: 9rem;
+      }
+    }
+  }
+}
+
+/*FORMACAO*/
+
+.formacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.125rem 9.5rem;
+  gap: 2rem;
+
+  .formacoes__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .formacoes__formacao {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .formacao__imagem__container {
+        width: 23rem;
+        height: 17.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.625rem;
+
+        .formacao__imagem {
+          max-width: 11.875rem;
+          max-height: 8.125rem;
+        }
+      }
+    }
+  }
+}
+
+/*EMPREGOS*/
+
+.empregos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.125rem 9.5rem;
+  gap: 2rem;
+
+  .empregos_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .empregos_emprego {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .emprego__imagem__container {
+        width: 23rem;
+        height: 17.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.625rem;
+        padding: 0;
+
+        .emprego__imagem {
+          max-width: 11.875rem;
+          max-height: 8.125rem;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+/*EXPERIENCIA*/
+
+.experiencia {
+  padding: 2rem 9.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+
+  .experiencia__projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .experiencia__div {
+      display: flex;
+      align-items: center;
+
+      .experiencia__imagem {
+        width: 46.875rem;
+        border-radius: 0.625rem;
+      }
+
+      .experiencia__projeto {
+        width: 37.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        .projeto__botoes {
+          display: flex;
+          gap: 1rem;
+
+          .projeto__botao1 {
+            padding: 1rem;
+            border-radius: 0.625rem;
+          }
+
+          .projeto__botao2 {
+            padding: 1rem;
+            border-radius: 0.625rem;
+          }
+        }
+      }
+    }
+
+    .invertido {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.projetos__escondidos {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/*CONTATO*/
+
+.contato {
+  display: flex;
+  padding: 4rem 9.5rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+
+  .contato__imagem {
+    border-radius: 0.625rem;
+  }
+
+  .contato__escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 41rem;
+
+    .contato__descricao {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap:  2rem;
+    }
+
+    .contato__preencher {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .contato__nome {
+        width: 41rem;
+        padding: 1rem 0 1.25rem 0.75rem;
+        border-radius: 0.625rem;
+      }
+
+      .contato__email {
+        width: 41rem;
+        padding: 1rem 0 1.25rem 0.75rem;
+        border-radius: 0.625rem;
+      }
+
+      .contato__assunto {
+        width: 41rem;
+        padding: 1rem 0 1.25rem 0.75rem;
+        border-radius: 0.625rem;
+      }
+
+      .contato__mensagem {
+        width: 41rem;
+        padding: 1rem 0 1.25rem 0.75rem;
+        border-radius: 0.625rem;
+      }
+    }
+
+    .contato__botao {
+      width: 10.625rem;
+      padding: 1rem;
+      border-radius: 0.625rem;
+      text-align: center;
+    }
+  }
+}
+
+/*RODAPE*/
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 1300px) {
+  .cabecalho {
+    padding: 2rem;
+
+  }
+  
+  .menu {
+    width: auto;
+    position: relative;
+
+  }
+  
+  .botoes__botao {
+    display: none;
+  }
+
+  .apresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 0 0 0;
+  }
+
+  .formacoes__div {
+    padding: 2rem;
+  }
+
+  .experiencia__projeto {
+    align-items: flex-start;
+    padding: 0;
+
+  }
+  
+  .experiencia__div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contato {
+    padding: 2rem;
+
+  }
+  
+  .contato__imagem {
+    display: none;
+  }
+  
+  .rodape {
+    padding: 2rem;
+  }
+}
+
+
+
+
+@media (max-width: 832px) {
+  .cabecalho {
+    padding: 1rem;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 18.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sobre-mim {
+    padding: 1rem;
+  }
+
+  .experiencia__projeto {
+    width: auto;
+
+  }
+  
+  .experiencia__div {
+    padding: 1rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .experiencia__imagem {
+    width: 18.5rem;
+  }
+  
+  .contato {
+    padding: 1rem;
+
+  }
+  
+  .contato__nome {
+    width: 18.5rem;
+  }
+
+  .contato__email {
+    width: 18.5rem;
+  }
+
+  .contato__assunto {
+    width: 18.5rem;
+  }
+
+  .contato__mensagem {
+    width: 18.5rem;
+  }
+
+  .rodape {
+    padding: 1rem;
+  }
+}
+
+
+
+
+@media (max-width: 650px) {
+  .botoes__botao.contatos {
+    display: none;
+  }
+
+  .apresentacao {
+    align-items: center;
+
+  }
+  
+  .apresentacao__titulo.texto1 {
+    display: none;
+  }
+
+  .apresentacao__paragrafo.texto1 {
+    display: none;
+  }
+
+  .apresentacao__titulo.texto2 {
+    display: flex;
+  }
+  
+  .redes-sociais {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .skills__skil {
+    padding: 1rem;
+    
+  }
+  
+  .skills__span {
+    width: 5rem;
+  }
+
+  .hobbies__hobby {
+    padding: 1rem;
+    
+  }
+  
+  .hobbies__span {
+    width: 5rem;
+  }
+
+  .formacao__imagem__container {
+    height: 15rem;
+    width: 20rem;
+  }
+}
