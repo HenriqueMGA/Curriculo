@@ -145,21 +145,21 @@
     {
       "nome": "Byte Busters",
       "descricao": "Projeto Próprio",
-      "img": "/assets/Projetos/ByteBusters.png",
+      "img": "/assets/Projetos/Byte_Busters.png",
       "repositorio": "https://github.com/HenriqueMGA/Bytebuster.git",
       "demo": "https://bytebuster-beta.vercel.app/"
     },
     {
       "nome": "Página Antiga do Youtube",
       "descricao": "DIO",
-      "img": "/assets/Projetos/Desafio_CSS.png",
+      "img": "/assets/Projetos/Desafio_CSS_Youtube.png",
       "repositorio": "https://github.com/HenriqueMGA/Desafio-de-Flexbox.git",
       "demo": "https://desafio-de-flexbox.vercel.app/"
     },
     {
       "nome": "Página de Pesquisa de One Piece",
       "descricao": "Curso Gratuito",
-      "img": "/assets/Projetos/Mugiwaras_de_OnePiece.png",
+      "img": "/assets/Projetos/Mugiwaras_de_One_Piece.png",
       "repositorio": "https://github.com/HenriqueMGA/Imersao-Alura-Gemini.git",
       "demo": "https://imersao-alura-gemini-beta.vercel.app/"
     },
@@ -180,7 +180,7 @@
     {
       "nome": "AluraFlix",
       "descricao": "OracleONE",
-      "img": "/assets/Projetos/AluraFlix.png",
+      "img": "assets/Projetos/Alura_Flix.png",
       "repositorio": "https://github.com/HenriqueMGA/AluraFlix.git",
       "demo": "https://alura-flix-rust.vercel.app/"
     }
